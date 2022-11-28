@@ -11,13 +11,13 @@ const jwt = require('jsonwebtoken');
 app.use(cors());
 app.use(express.json());
 
-// furniture
-// uQbXreAfpomZrj9w
+// 
+// 
 
 
 
 
-const uri = "mongodb+srv://furniture:uQbXreAfpomZrj9w@cluster0.onwvwl4.mongodb.net/?retryWrites=true&w=majority";
+const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.onwvwl4.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
 async function run() {

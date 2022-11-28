@@ -1,0 +1,72 @@
+[
+    [
+        {
+            "category_id": 1,
+            "name": "Bed Room"
+        },
+        {
+            "category_id": 2,
+            "name": "Dining Room"
+        },
+        {
+            "category_id": 3,
+            "name": "kitchen"
+        }
+    ],
+    [
+        {
+            "category_id": 1,
+            "name": "single Bed",
+            "picture":"https://ibb.co/99C5Sdr",
+            "Location":"Dhaka",
+            "original_price":12000,
+            "resale_price":10000,
+            "use": 2
+        },
+        {
+            "category_id": 1,
+            "name": "Double Bed",
+            "picture":"https://ibb.co/sF4Xw25",
+            "Location":"Rajshahi",
+            "original_price":32000,
+            "resale_price":25000,
+            "use": 3.5
+        },
+        {
+            "category_id": 2,
+            "name": "Dining Table",
+            "picture":"https://ibb.co/fMtJyvy",
+            "Location":"comilla",
+            "original_price":15000,
+            "resale_price":11000,
+            "use": 1
+        },
+        {
+            "category_id": 2,
+            "name": "Dining Table and chairs",
+            "picture":"",
+            "Location":"Chittagong",
+            "original_price":30000,
+            "resale_price":25000,
+            "use": 2.5
+        },
+        {
+            "category_id": 3,
+            "name": "Stove",
+            "picture":"https://ibb.co/dBjw3mn",
+            "Location":"Rajshahi",
+            "original_price":8000,
+            "resale_price":6000,
+            "use": 2
+        },
+        {
+            "category_id": 3,
+            "name": "oven",
+            "picture":"https://ibb.co/hMvR6Yv",
+            "Location":"Sylhet",
+            "original_price":12000,
+            "resale_price":10000,
+            "use": 3
+        }
+    ]
+]
